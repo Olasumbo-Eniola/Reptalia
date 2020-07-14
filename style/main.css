@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Montserrat !important;
+
+}
+.hero-section{
+    background: #0A46BF;
+    padding-bottom: 100px;
+}
+.navbar-brand{
+    margin-top: 71px;
+    padding-left: 3rem;
+}
+.hero-text{
+    margin-top: 100px;
+}
+.left {
+    padding-left: 3rem !important;
+}
+
+.hero-text h5{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 120%;
+    color: #FCFCFC;   
+}
+.hero-text p{
+    font-family: Montserrat;
+    padding-top: 29px;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+
+color: #FCFCFC;
+
+}
+.md-form{
+    margin-top: 51px;
+}
+.md-form input{
+   height: 59px !important;
+   color: white !important;
+   width: 482px !important; 
+}
+.sub-btn{
+    width: 258px !important;
+    height: 64px;
+    background: #FCFCFC !important;
+    box-shadow: none !important;
+    font-family: Montserrat !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    line-height: 32px  !important;
+    color: #0A46BF !important;
+}
+.reptalia{
+    margin-top: 56px;
+}
+ .reptalia h5{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+    
+    
+    color: #0A46BF;
+    
+ }
+ 
+ 
+ .fly{
+     margin-left: 4rem;
+     position: absolute;
+     top: 0px;
+     right: 0px !important;
+ }
+ .cols{
+     margin-top: 50px;
+ }
+ .how{
+     margin-top: 200px;
+ }
+ .reptalia p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    /* or 120% */
+    
+    
+    color: #0A46BF;
+    
+    
+ }
+ .how p{
+     margin-left: 8rem;
+ }

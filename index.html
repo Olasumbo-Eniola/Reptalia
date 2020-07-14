@@ -4,35 +4,87 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="stylesheet" href="main.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="./style/main.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+<link href="./style/responsive.css" rel="stylesheet">
 
-    <title>Hello, world!</title>
+    <!-- Bootstrap CSS -->
+    <!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <title>REPTALIA</title>
   </head>
   <body>
-    <section class="newsletter">
-        <div class="container">
-        <div class="row">
-        <div class="col-sm-12">
-            <div class="content">
-                <h2>SUBSCRIBE TO OUR NEWSLETTER</h2>
-            <form method="POST" action="index.php" class="input-group" enctype="multipart/form-data">
-                 <input type="email" class="form-control" placeholder="Enter your email" value="" name="user_email_data">
-                 <span class="input-group-btn">
-                 <input type="submit" class="btn" type="submit" value="Subscribe" name="submit">
-                 </span>
-                 </form>
-                  </div>
-            </div>
-        </div>
-        </div>
-        </div>
-        </section>
+<div class="hero-section">
+  <nav class="container-fluid">
+  <a class="navbar-brand" href="#" >
+    <img src="./img/REPTALIA.svg" alt="">
+  </a>
+  </nav>
+  <div class="hero-text container-fluid">
+    <div class="row " >
+      <div class="col-sm-6 left ">
+        <h5>Capture Any Snake With Your Camera And Find Out If It Is Venomous Or Not.</h5>
+        <p>We are working on this and dropping your email would enable us to notify you when it is ready.</p>
+        <form class="md-form" action="index.php" method="POST" enctype="multipart/form-data">
+          <input type="text" id="form1" class="form-control">
+          <label for="form1" class="text-white">Your Email</label>
+          <button class="btn sub-btn" name="submit">Yes, Notify Me</button>
+        </form>
+      </div>
+      <div class="col-sm-6 horizontal  ">
+        <img src="./img/iPhone X Horizantal 1.svg" class="img-fluid img ">
+      </div>
+    </div>
+  </div>
+</div>
+<main >
+  <div class="container reptalia ">
+    <h5 class="text-center">Why REPTALIA Matters</h5>
+ <div class="">
+   <div class="row mt-5">
+     <div class="col-sm-6 col-left ">
+       <p>
+        Reptalia enables you to get a first hand detailed information about various specie of snakes in real time by simply capturing the image through your mobile device. The essence of this technology is to reduce panic 
+        in situatirons whereby a victim is uncertain whether a particular snake is venomous or non-venomous.
+       </p>
+     </div>
+     <div class="col-sm-6 col-right">
+       <img src="./img/iPhone X Flying.svg" class="img-fluid fly">
+     </div>
+   </div>
+   <section class=" how">
+   <h5 class="text-center">HOW WE Do IT</h5>
+   <div class="row cols">
+    <div class="col-sm-6 ">
+  <img src="./img/Rectangle 21.png" class="img-fluid">
+    </div>
+    <div class="col-sm-6 ">
+      <p>
+        It’s that simple! Reptalia      
+       </p>
+    </div>
+  </div>
+  </section>
+ </div>
+
+  </div>
+
+</main>
+
+  
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
   </body>
 </html>
