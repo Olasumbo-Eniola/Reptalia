@@ -1,29 +1,22 @@
 <?php
-
+ header("Location: index.html");
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "myDB";
+$username = "id14342607_root";
+$password = "kafilat12*Sumbo";
+$dbname ="id14342607_mydb";
 
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-// Check connection
-if (mysqli_connect_error()) {
-    die("Database connection failed: " . mysqli_connect_error());
-  }
-
-
-
-$sql="INSERT INTO getemail (user_email) VALUES ('$_POST[user_email_data]')";
-
-if ($conn->query($sql) === TRUE) {
-  header("Location: index.html");
-} else {
-  echo "Error: " . $sql . "<br>" . $conn->error;
+try {
+  $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+  // set the PDO error mode to exception
+  $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+  $sql = "INSERT INTO getemail (email)
+  VALUES ('".$_POST["user_email"]."')";
+  // use exec() because no results are returned
+  $conn->exec($sql);
+ 
+} catch(PDOException $e) {
+  echo $sql . "<br>" . $e->getMessage();
 }
-
-$conn->close();
-
+$conn = null;
  ?>
    
