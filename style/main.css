@@ -93,3 +93,32 @@ color:  #031840;
 .section_two .row{
     padding-top: 51.5px;
 }
+.section_three{
+    padding-top: 26px;
+}
+.section_three .row{
+    padding-top: 48px;
+}
+.section_three h5{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+    
+    
+    color: #031840;    
+}
+.section_three p{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 140%;
+/* or 28px */
+
+
+color: #031840;
+
+}
