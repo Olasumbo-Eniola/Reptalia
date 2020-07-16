@@ -195,14 +195,57 @@ color: #031840;
     background: #031840;
     position: relative;
     height: 100%;
+    padding-top: 120px;
 
 }
-.col-sm-3{
+.section-five h5{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;    
+}
+.section-five p{
+    padding-top: 20px;
+}
+.section-five .row{
+    padding-top: 80px;
+}
+.col-md-3{
     margin: auto;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #FFFFFF   
 }
 .bg{
-        width:100%;height:100%;
-        background-image: url(http://dummyimage.com/250x250/dfdbb9/dfdbb9.png);
-        background-repeat:no-repeat;
-        background-position:center top;
+ 
+    background-image: url(https://res.cloudinary.com/olasumboeniola/image/upload/v1594909607/ellipse_gltich.svg);
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.two{
+    padding-top: 100px;
+}
+.section-six h5{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 39px;
+
+color: #000000;
+}
+.form2{
+    border: 1px solid #031840;
+box-sizing: border-box;
+width: 789px !important;
+height: 50px !important;
+}
+.sub{
+    B
 }

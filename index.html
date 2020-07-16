@@ -23,20 +23,23 @@
   </head>
   <body>
 <div class="hero-section">
-  <nav class="container-fluid">
+  <nav class="container-fluid-md">
   <a class="navbar-brand" href="#" >
     <img src="./img/REPTALIA.svg" alt="" class="wow bounceInDown slow">
   </a>
   </nav>
   <div class="hero-text container-fluid">
     <div class="row " >
-      <div class="col-sm-6 left ">
-        <h5 class="wow flipInX  delay-2s "  >Capture Any Snake With Your Camera And Find Out If It Is Venomous Or Not.</h5>
+      <div class="col-md-6 left ">
+        <h5 class="wow flipInX  delay-2s slow"  >Capture Any Snake With Your Camera And Find Out If It Is Venomous Or Not.</h5>
         <p class="wow rollIn delay-3s "  style="animation-duration: 2s !important;">We are working on this and dropping your email would enable us to notify you when it is ready.</p>
-        <form class="md-form wow zoomInLeft delay-4s" action="index.php" method="POST"  >
-          <input type="email" id="inputMDEx" class="form-control"name="user_email">
+
+
+        <form class="md-form wow zoomInLeft delay-4s" action="index.php" method="POST"  name="form" onsubmit="return validEmail()">
+          <input type="text" id="inputMDEx" class="form-control"name="user_email" />
+          <small style="color: red; display: none" id="error">This doesn't look like an email</small><br>
           <label for="inputMDEx" class="text-white">Your Email</label>
-          <button class="btn sub-btn hvr-shutter-in-horizontal" name="submit" id="notify"> Yes, Notify Me</button>
+          <button class="btn sub-btn hvr-shutter-in-horizontal" name="submit" id="notify" type="submit"> Yes, Notify Me</button>
         </form>
       </div>
       <div class="col-sm-6 horizontal  ">
@@ -49,15 +52,15 @@
   <section class="container-fluid section_two">
                <h5 class="text-center wow jackInTheBox slow">Why REPTALIA Matters</h5>
                <div class="row">
-                 <div class="col-sm-6  col-left ">
-                   <p class="wow fadeInLeft  delay-1s "  style="-webkit-animation-duration: 2s;">
+                 <div class="col-md-6 pb-2  col-left ">
+                   <p class="wow fadeInLeft  delay-1s "  style="animation-duration: 2s;">
                     Reptalia enables you to get a first hand detailed
                      information about various specie of snakes in real time by simply capturing the image through your mobile device. The essence of this technology is to reduce panic 
                     in situations whereby a victim is uncertain whether a particular snake is venomous or non-venomous.
                    </p>
                  </div>
-                 <div class="col-sm-6 col-right ">
-                   <img src="./img/flying.svg" class="img-fluid  float-sm-right pr-5 wow flipInY delay-2s hvr-grow"  style="-webkit-animation-duration: 2s;">
+                 <div class="col-md-6 col-right">
+                   <img src="./img/flying.svg" class="img-fluid  float-sm-right pr-5 wow flipInY delay-2s "  style="-webkit-animation-duration: 2s;">
                  </div>
                </div>
   </section>
@@ -66,10 +69,10 @@
   <section class="container-fluid section_three ">
     <h5 class="text-center wow tada slow">How We Do It</h5>
     <div class="row">
-      <div class="col-sm-6 col-left">
-        <img src="./img/Rectangle 21.png" class="img-fluid  float-sm-left pr-3 wow flipInX delay-1s hvr-grow" style="-webkit-animation-duration: 2s;">
+      <div class="col-md-6 col-left">
+        <img src="./img/Rectangle 21.png" class="img-fluid  float-sm-left pr-3 wow flipInX delay-1s " style="-webkit-animation-duration: 2s;">
       </div>
-      <div class="col-sm-6 float-sm-right col-right-text">
+      <div class="col-md-6 float-sm-right col-right-text">
         <p class="wow fadeInRight delay-1s"  style="-webkit-animation-duration: 3s;">
           Reptalia enables you to get a first hand detailed
            information about various specie of snakes in real time by simply capturing the image through your mobile device. The essence of this technology is to reduce panic 
@@ -87,7 +90,7 @@
   <!--Main ROW-->
   <div class="row">
     <!--Column-->
-    <div class="col-sm-6 wow fadeInLeft delay-1s "   style="-webkit-animation-duration: 2s;">
+    <div class="col-md-6 wow fadeInLeft delay-1s "   style="-webkit-animation-duration: 2s;">
       <!--row-->
       <div class="row">
         <div class="col-3">
@@ -107,7 +110,7 @@
     <!--Column ends-->
 
 <!--Second column-->
-<div class="col-sm-6 wow fadeInRight delay-2s"   style="-webkit-animation-duration: 2s;">
+<div class="col-md-6 wow fadeInRight delay-2s"   style="-webkit-animation-duration: 2s;">
   <!--row-->
   <div class="row">
     <div class="col-3">
@@ -132,7 +135,7 @@
     <!--Column ends-->
     <div class="row">
       <!--Column-->
-      <div class="col-sm-6 wow fadeInLeft delay-3s"   style="-webkit-animation-duration: 2s;">
+      <div class="col-md-6 wow fadeInLeft delay-1s "   style="-webkit-animation-duration: 2s;">
         <!--row-->
         <div class="row">
           <div class="col-3">
@@ -152,7 +155,7 @@
       <!--Column ends-->
   
   <!--Second column-->
-  <div class="col-sm-6 wow fadeInRight delay-3s"   style="-webkit-animation-duration: 2s;">
+  <div class="col-md-6 wow fadeInRight delay-2s"   style="-webkit-animation-duration: 2s;">
     <!--row-->
     <div class="row">
       <div class="col-3">
@@ -172,7 +175,7 @@
              </div>
              <div class="row">
               <!--Column-->
-              <div class="col-sm-6 wow fadeInLeft delay-4s">
+              <div class="col-md-6 wow fadeInLeft delay-1s "   style="-webkit-animation-duration: 2s;">
                 <!--row-->
                 <div class="row">
                   <div class="col-3">
@@ -193,7 +196,7 @@
               <!--Column ends-->
           
           <!--Second column-->
-          <div class="col-sm-6 wow fadeInRight delay-5s">
+          <div class="col-md-6 wow fadeInRight delay-2s"   style="-webkit-animation-duration: 2s;">
             <!--row-->
             <div class="row">
               <div class="col-3">
@@ -218,12 +221,14 @@
 <!--Container closes-->
 <section class="section-five">
  
-  <h5>App Gallery</h5>
-  <p class="text-center">A display of various splash screens illustrating how Reptalia app works</p>
-  <div class="container five" >
+  <div class="container-md five" >
+    
+  
     <div class="bg">
+      <h5>App Gallery</h5>
+  <p class="text-center">A display of various splash screens illustrating how Reptalia app works</p>
     <div class="row">
-    <div class="col-sm-3 ">
+    <div class="col-md-3 ">
       <img src="./img/Device - Dark 1.svg" class="img-fluid hvr-grow" data-toggle="modal" data-target="#exampleModal">
       <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -234,7 +239,7 @@
               </button>
             </div>
             <div class="modal-body text-center">
-              <img src="https://res.cloudinary.com/olasumboeniola/image/upload/v1594930224/Device_-_Dark_1_coaqme.png" data-html="true"
+              <img src="https://res.cloudinary.com/olasumboeniola/image/upload/v1594930224/Device_-_Dark_1_coaqme.png"  width="100%"
               data-toggle="tooltip" data-placement="top" title="https://www.figma.com/file/PyGJ8BLlx564oVgPVqww8x/Reptalia-Landing-page?node-id=33%3A4"
               >
             </div>
@@ -243,7 +248,7 @@
         </div>
       </div>
     </div>
-    <div class="col-sm-3">
+    <div class="col-md-3">
       <img src="./img/camera 1.svg" class="img-fluid hvr-grow" data-toggle="modal" data-target="#modal">
       <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modal" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -254,13 +259,13 @@
               </button>
             </div>
             <div class="modal-body text-center">
-              <img src="https://res.cloudinary.com/olasumboeniola/image/upload/v1594930209/camera_1_ibjjwf.png">
+              <img src="https://res.cloudinary.com/olasumboeniola/image/upload/v1594930209/camera_1_ibjjwf.png"  width="100%">
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="col-sm-3">
+    <div class="col-md-3">
       <img src="./img/export 1.svg" class="img-fluid hvr-grow" data-toggle="modal" data-target="#modal-two">
       <div class="modal fade" id="modal-two" tabindex="-1" role="dialog" aria-labelledby="modal-two" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -271,7 +276,7 @@
               </button>
             </div>
             <div class="modal-body text-center">
-              <img src="https://res.cloudinary.com/olasumboeniola/image/upload/v1594930209/camera_1_ibjjwf.png">
+              <img src="https://res.cloudinary.com/olasumboeniola/image/upload/v1594930283/export_1_bo8njf.png"  width="100%">
             </div>
           </div>
         </div>
@@ -279,9 +284,9 @@
     </div>
   </div>
   <div class="row two">
-    <div class="col-sm-3 ">
-      <img src="./img/info 1.svg" class="img-fluid hvr-grow">
-      <div class="modal fade" id="modal-two" tabindex="-1" role="dialog" aria-labelledby="modal-two" aria-hidden="true">
+    <div class="col-md-3 " >
+      <img src="./img/info 1.svg" class="img-fluid hvr-grow" data-toggle="modal" data-target="#modal-three">
+      <div class="modal fade" id="modal-three" tabindex="-1" role="dialog" aria-labelledby="modal-three" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
@@ -290,25 +295,54 @@
               </button>
             </div>
             <div class="modal-body text-center">
-              <img src="https://res.cloudinary.com/olasumboeniola/image/upload/v1594930209/camera_1_ibjjwf.png">
+              <img src="https://res.cloudinary.com/olasumboeniola/image/upload/v1594934745/info_1_zlak9e.png"  width="100%">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <img src="./img/Device - Dark 2.svg" class="img-fluid hvr-grow" data-toggle="modal" data-target="#modal-four">
+      <div class="modal fade" id="modal-four" tabindex="-1" role="dialog" aria-labelledby="modal-four" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="btn" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body text-center">
+              <img src="https://res.cloudinary.com/olasumboeniola/image/upload/v1594936142/Device_-_Dark_2_ldbzc2.png" width="100%">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="./img/export 1.svg" class="img-fluid hvr-grow" data-toggle="modal" data-target="#modal-five">
+      <div class="modal fade" id="modal-five" tabindex="-1" role="dialog" aria-labelledby="modal-five" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="btn" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body text-center">
+              <img src="https://res.cloudinary.com/olasumboeniola/image/upload/v1594930209/camera_1_ibjjwf.png"  width="100%">
             </div>
           </div>
         </div>
       </div>
     </div>
     </div>
-    <div class="col-sm-3">
-      <img src="./img/Device - Dark 2.svg" class="img-fluid hvr-grow">
-    </div>
-    <div class="col-sm-3">
-      <img src="./img/export 1.svg" class="img-fluid hvr-grow">
-    </div>
   </div>
   </div>
   </div>
   </section>
 </section>
-
+<
 </main>
 
 
