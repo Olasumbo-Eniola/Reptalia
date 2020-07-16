@@ -3,3 +3,26 @@
         width: 100% !important;
     }
 }
+@media screen and (max-width: 992px){
+    .wrap .col-md-3{
+        margin-left: 0 !important;
+    }
+    .one{
+        right: 4% !important;
+        height: 30vh;
+ 
+    }
+   
+}
+@media screen and (max-width: 768px){
+    .one{
+        display: none;
+    }
+  .wrap{
+      padding: 1rem;
+  }
+  .section_four .col-right{
+      padding: 5px !important;
+      background: brown;
+  }
+}
