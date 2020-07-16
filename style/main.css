@@ -185,9 +185,24 @@ color: #031840;
 }
 .sneak-peek .col-sm-6{
     margin: auto !important;
-   -webkit-animation-duration: 2s !important;
+   
     
 }
 .section-four .row{
  padding-bottom: 30px;
+}
+.section-five{
+    background: #031840;
+    position: relative;
+    height: 100%;
+
+}
+.col-sm-3{
+    margin: auto;
+}
+.bg{
+        width:100%;height:100%;
+        background-image: url(http://dummyimage.com/250x250/dfdbb9/dfdbb9.png);
+        background-repeat:no-repeat;
+        background-position:center top;
 }
