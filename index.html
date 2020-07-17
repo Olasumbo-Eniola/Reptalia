@@ -41,6 +41,7 @@
           <label for="inputMDEx" class="text-white">Your Email</label>
           <button class="btn sub-btn hvr-shutter-in-horizontal" name="submit" id="notify" type="submit"> Yes, Notify Me</button>
         </form>
+       
       </div>
       <div class="col-sm-6 horizontal  ">
         <img src="./img/iPhone X Horizantal 3.svg" class="img-fluid img flost-right wow fadeInRight  delay-4s"  style="animation-duration: 2s;">
@@ -326,7 +327,7 @@
     </div>
 
     <div class="col-md-3">
-      <img src="./img/export 1.svg" class="img-fluid hvr-grow wow fadeInRight slow delay-3s" data-toggle="modal" data-target="#modal-five" style="animation-duration: 2s;">
+      <img src="https://res.cloudinary.com/olasumboeniola/image/upload/v1594977158/Device_-_Dark_3_s9vvb0.png" class="img-fluid hvr-grow wow fadeInRight slow delay-3s" data-toggle="modal" data-target="#modal-five" style="animation-duration: 2s;">
       <div class="modal fade" id="modal-five" tabindex="-1" role="dialog" aria-labelledby="modal-five" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
@@ -336,7 +337,7 @@
               </button>
             </div>
             <div class="modal-body text-center">
-              <img src="https://res.cloudinary.com/olasumboeniola/image/upload/v1594930209/camera_1_ibjjwf.png"  width="100%">
+              <img src="https://res.cloudinary.com/olasumboeniola/image/upload/v1594977158/Device_-_Dark_3_s9vvb0.png"  width="100%">
             </div>
           </div>
         </div>
@@ -385,7 +386,23 @@
   <script type="text/javascript" src="./JS/mdb.min.js"></script>
   <!-- Your custom scripts (optional) -->
   <script type="text/javascript" src="./JS/script.js"></script>
+   <script>
+         function validEmail(){
+    let outputs = [ 'email'];
+    outputs[0] = document.forms['form']['user_email'].value;
+    var mail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    
+    if (!outputs[0].match(mail)){
+      document.getElementsByTagName('small')[0].style.display = 'block';
+      return false;
+    }else{
+      alert('Email successfully submitted');
+    }
+  }
 
+       
+   
+   </script>
 
   </body>
 </html>
