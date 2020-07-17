@@ -196,6 +196,7 @@ color: #031840;
     position: relative;
     height: 100%;
     padding-top: 120px;
+    padding-bottom: 100px;
 
 }
 .section-five h5{
@@ -222,6 +223,16 @@ color: #031840;
     
     color: #FFFFFF   
 }
+.modal.fade, .modal-dialog, .modal-content, .modal-header, .modal-body{
+    background: none !important;
+}
+.modal-header{
+    border: none !important;
+}
+.close .btn.close{
+    font-size: 40px !important;
+    color: white;
+}
 .bg{
  
     background-image: url(https://res.cloudinary.com/olasumboeniola/image/upload/v1594909607/ellipse_gltich.svg);
@@ -230,6 +241,7 @@ color: #031840;
 }
 .two{
     padding-top: 100px;
+    padding-bottom: 100px !important;
 }
 .section-six h5{
     font-family: Montserrat;
@@ -246,6 +258,59 @@ box-sizing: border-box;
 width: 789px !important;
 height: 50px !important;
 }
-.sub{
-    B
+.brder1{
+    
+    background-image: url(https://res.cloudinary.com/olasumboeniola/image/upload/v1594969475/vector_ebznc1.svg);
+    background-repeat:no-repeat;
+    background-position:top left;
+}
+.border2{
+    
+    background-image: url(https://res.cloudinary.com/olasumboeniola/image/upload/v1594969672/Vector_3_wdbnkj.png);
+    background-repeat:no-repeat;
+    background-position:top right;
+}
+.border3{
+    
+    background-image: url(https://res.cloudinary.com/olasumboeniola/image/upload/v1594969661/Vector_5_yqljnm.png);
+    background-repeat:no-repeat;
+    background-position:bottom left;
+}
+.border4{
+    
+    background-image: url(https://res.cloudinary.com/olasumboeniola/image/upload/v1594969677/Vector_4_xncjel.png);
+    background-repeat:no-repeat;
+    background-position:bottom right;
+}
+.section-six{
+
+    position: relative;
+    height: 100%;
+padding-top: 50px;
+padding-bottom: 80px;
+
+
+
+}
+
+.section-six h4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    
+    color: #000000;    
+}
+.newsletter input{
+height: 60px !important ;
+}
+.newsletter .btn-default{
+    background: #031840 !important;
+}
+footer{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
+    background: #031840;
 }

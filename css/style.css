@@ -1,0 +1,113 @@
+@media screen and (max-width: 576px){
+    .md-form input{
+        width: 100% !important;
+    }
+}
+@media screen and  ( max-width: 995px){
+
+    .section-four .col-2 .icon{
+        width: 100% !important;
+        background: blueviolet;
+    }
+    .section-four .col-2 .icon img{
+        width: 50% !important;
+    }
+    .section-four p{
+        padding-right: 0px !important;
+    }
+}
+@media screen and (max-width: 768px){
+    .section-three{
+        padding-left: 1rem !important;
+    }
+    .section-two p{
+        padding-right: 3rem !important;
+    }
+    
+    .col-left{
+        padding-right: 0px !important;
+    }
+    .col-right{
+        display: none;
+    }
+    .col-left img{
+display: none;
+        margin: auto!important;
+    }
+    .horizontal{
+        display: none;
+    }
+    .col-md-3{
+   
+        padding-top: 20px;
+        padding-bottom: 20px !important;
+    }
+    .col-md-3 img.img-fluid{
+        margin-left: 25% !important;
+
+    }
+    .col-left-center{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+ 
+}
+@media screen and (max-width: 640px){
+
+    .section-six small{
+        display: none;
+    }
+    .section-six .btn-default{
+        margin-left: auto !important;
+    }
+}
+@media only screen and (max-width: 576px){
+    body p{
+        font-size: 16px !important;
+    }
+    body h5, body h4{
+        font-size: 18px;
+    }
+    .hero-text h5{
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 120%;
+        color: #FCFCFC;   
+        
+    }
+    .left{
+        padding-left: 2rem !important;
+    }
+    .col-md-3 img.img-fluid{
+        margin-left: 25% !important;
+
+    }
+    .section-six h4{
+        font-size: 32px;
+    }
+}
+@media  screen and (max-width: 530px){
+    .col-md-3 img.img-fluid{
+        margin-left: 20% !important;
+
+    }
+
+}
+@media screen and (max-width: 438px){
+    .col-md-3 img.img-fluid{
+        margin-left: 15% !important;
+
+    }
+}
+@media only screen and (max-width: 400px){
+    .col-md-3 img.img-fluid{
+        margin-left: 8% !important;
+
+    }
+}
+@media screen and (max-width: 324px){
+    .col-md-3 img.img-fluid{
+        margin-left:  3% !important;
+
+    }
+}
